@@ -1,0 +1,5 @@
+w_icons.o: w_icons.c ../config.h w_icons.h version.xbm splash.xbm
+../config.h:
+w_icons.h:
+version.xbm:
+splash.xbm:

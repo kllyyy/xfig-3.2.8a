@@ -1,0 +1,114 @@
+d_box.o: d_box.c d_box.h /usr/include/stdlib.h \
+ /usr/include/machine/ieeefp.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/sys/features.h /usr/include/cygwin/config.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/stddef.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/lock.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h resources.h \
+ ../config.h /usr/lib/gcc/x86_64-pc-cygwin/11/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h \
+ /usr/include/bits/wordsize.h /usr/include/cygwin/limits.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/endian.h /usr/include/machine/_endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+ /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/_pthreadtypes.h /usr/include/sys/cpuset.h \
+ /usr/include/machine/types.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/sysmacros.h \
+ /usr/include/X11/Intrinsic.h /usr/include/X11/Xlib.h \
+ /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h \
+ /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h \
+ /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
+ /usr/include/X11/Xresource.h /usr/include/string.h \
+ /usr/include/sys/_locale.h /usr/include/strings.h \
+ /usr/include/sys/string.h /usr/include/X11/Core.h \
+ /usr/include/X11/Composite.h /usr/include/X11/Constraint.h \
+ /usr/include/X11/Object.h /usr/include/X11/RectObj.h \
+ /usr/include/X11/xpm.h paintop.h mode.h object.h f_util.h u_create.h \
+ u_elastic.h /usr/lib/gcc/x86_64-pc-cygwin/11/include/stdint.h \
+ /usr/include/stdint.h /usr/include/sys/_intsup.h u_list.h u_redraw.h \
+ w_canvas.h w_cursor.h w_mousefun.h w_msgpanel.h
+d_box.h:
+/usr/include/stdlib.h:
+/usr/include/machine/ieeefp.h:
+/usr/include/_ansi.h:
+/usr/include/newlib.h:
+/usr/include/_newlib_version.h:
+/usr/include/sys/config.h:
+/usr/include/sys/features.h:
+/usr/include/cygwin/config.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/stddef.h:
+/usr/include/sys/reent.h:
+/usr/include/_ansi.h:
+/usr/include/sys/_types.h:
+/usr/include/machine/_types.h:
+/usr/include/machine/_default_types.h:
+/usr/include/sys/lock.h:
+/usr/include/sys/cdefs.h:
+/usr/include/machine/stdlib.h:
+/usr/include/alloca.h:
+/usr/include/cygwin/stdlib.h:
+/usr/include/cygwin/wait.h:
+resources.h:
+../config.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/limits.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/syslimits.h:
+/usr/include/limits.h:
+/usr/include/features.h:
+/usr/include/bits/wordsize.h:
+/usr/include/cygwin/limits.h:
+/usr/include/sys/types.h:
+/usr/include/sys/_stdint.h:
+/usr/include/machine/endian.h:
+/usr/include/machine/_endian.h:
+/usr/include/bits/endian.h:
+/usr/include/sys/select.h:
+/usr/include/sys/_sigset.h:
+/usr/include/sys/_timeval.h:
+/usr/include/sys/timespec.h:
+/usr/include/sys/_timespec.h:
+/usr/include/sys/_pthreadtypes.h:
+/usr/include/sys/cpuset.h:
+/usr/include/machine/types.h:
+/usr/include/endian.h:
+/usr/include/bits/byteswap.h:
+/usr/include/sys/sysmacros.h:
+/usr/include/X11/Intrinsic.h:
+/usr/include/X11/Xlib.h:
+/usr/include/X11/X.h:
+/usr/include/X11/Xfuncproto.h:
+/usr/include/X11/Xosdefs.h:
+/usr/include/X11/Xutil.h:
+/usr/include/X11/keysym.h:
+/usr/include/X11/keysymdef.h:
+/usr/include/X11/Xresource.h:
+/usr/include/string.h:
+/usr/include/sys/_locale.h:
+/usr/include/strings.h:
+/usr/include/sys/string.h:
+/usr/include/X11/Core.h:
+/usr/include/X11/Composite.h:
+/usr/include/X11/Constraint.h:
+/usr/include/X11/Object.h:
+/usr/include/X11/RectObj.h:
+/usr/include/X11/xpm.h:
+paintop.h:
+mode.h:
+object.h:
+f_util.h:
+u_create.h:
+u_elastic.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/sys/_intsup.h:
+u_list.h:
+u_redraw.h:
+w_canvas.h:
+w_cursor.h:
+w_mousefun.h:
+w_msgpanel.h:

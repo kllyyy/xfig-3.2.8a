@@ -1,0 +1,214 @@
+w_digitize.o: w_digitize.c fig.h ../config.h /usr/include/fcntl.h \
+ /usr/include/sys/fcntl.h /usr/include/sys/_default_fcntl.h \
+ /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/stddef.h \
+ /usr/include/sys/types.h /usr/include/machine/_types.h \
+ /usr/include/sys/_types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/endian.h /usr/include/machine/_endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+ /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/_pthreadtypes.h /usr/include/sys/cpuset.h \
+ /usr/include/machine/types.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/wordsize.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stat.h /usr/include/time.h \
+ /usr/include/_ansi.h /usr/include/sys/reent.h /usr/include/sys/lock.h \
+ /usr/include/machine/time.h /usr/include/sys/_locale.h \
+ /usr/include/cygwin/time.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+ /usr/include/sys/ucontext.h /usr/include/cygwin/stat.h \
+ /usr/include/errno.h /usr/include/sys/errno.h /usr/include/ctype.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/sys/_intsup.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/getopt.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/stdarg.h \
+ /usr/include/sys/stdio.h /usr/include/stdlib.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/include/pwd.h /usr/include/math.h /usr/include/X11/Xlib.h \
+ /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h \
+ /usr/include/X11/Xosdefs.h /usr/include/X11/Intrinsic.h \
+ /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
+ /usr/include/X11/keysymdef.h /usr/include/X11/Xresource.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/sys/string.h \
+ /usr/include/X11/Core.h /usr/include/X11/Composite.h \
+ /usr/include/X11/Constraint.h /usr/include/X11/Object.h \
+ /usr/include/X11/RectObj.h /usr/include/X11/Xfuncs.h \
+ /usr/include/locale.h xfig_math.h figx.h /usr/include/X11/cursorfont.h \
+ /usr/include/X11/StringDefs.h /usr/include/X11/Shell.h \
+ /usr/include/X11/SM/SMlib.h /usr/include/X11/SM/SM.h \
+ /usr/include/X11/ICE/ICElib.h /usr/include/X11/ICE/ICE.h \
+ /usr/include/X11/Xatom.h /usr/include/X11/Xaw3d/Command.h \
+ /usr/include/X11/Xaw3d/Label.h /usr/include/X11/Xaw3d/Xaw3dP.h \
+ /usr/include/X11/IntrinsicP.h /usr/include/X11/CoreP.h \
+ /usr/include/X11/CompositeP.h /usr/include/X11/ConstrainP.h \
+ /usr/include/X11/ObjectP.h /usr/include/X11/RectObjP.h \
+ /usr/include/X11/Xaw3d/Simple.h /usr/include/X11/Xmu/Converters.h \
+ /usr/include/X11/Xaw3d/Dialog.h /usr/include/X11/Xaw3d/Form.h \
+ /usr/include/X11/Xaw3d/Box.h /usr/include/X11/Xaw3d/Cardinals.h \
+ /usr/include/X11/Xaw3d/Text.h /usr/include/X11/Xaw3d/TextSink.h \
+ /usr/include/X11/Xaw3d/TextSrc.h /usr/include/X11/Xaw3d/AsciiSrc.h \
+ /usr/include/X11/Xaw3d/AsciiSink.h /usr/include/X11/Xaw3d/AsciiText.h \
+ /usr/include/X11/Xaw3d/MultiSrc.h /usr/include/X11/Xaw3d/MenuButton.h \
+ /usr/include/X11/Xaw3d/Scrollbar.h /usr/include/X11/Xaw3d/SimpleMenu.h \
+ /usr/include/X11/Xaw3d/Sme.h /usr/include/X11/Xaw3d/SmeLine.h \
+ /usr/include/X11/Xaw3d/Tip.h /usr/include/X11/Xaw3d/Toggle.h \
+ /usr/include/X11/Xaw3d/Paned.h /usr/include/X11/Xaw3d/Viewport.h \
+ /usr/include/X11/Xaw3d/Reports.h /usr/include/X11/Xaw3d/List.h \
+ /usr/include/X11/Xaw3d/SmeBSB.h resources.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h \
+ /usr/include/cygwin/limits.h /usr/include/X11/xpm.h paintop.h object.h \
+ mode.h w_digitize.h w_indpanel.h w_icons.h w_setup.h w_util.h \
+ /usr/include/assert.h w_canvas.h
+fig.h:
+../config.h:
+/usr/include/fcntl.h:
+/usr/include/sys/fcntl.h:
+/usr/include/sys/_default_fcntl.h:
+/usr/include/_ansi.h:
+/usr/include/newlib.h:
+/usr/include/_newlib_version.h:
+/usr/include/sys/config.h:
+/usr/include/machine/ieeefp.h:
+/usr/include/sys/features.h:
+/usr/include/cygwin/config.h:
+/usr/include/sys/cdefs.h:
+/usr/include/machine/_default_types.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/stddef.h:
+/usr/include/sys/types.h:
+/usr/include/machine/_types.h:
+/usr/include/sys/_types.h:
+/usr/include/sys/_stdint.h:
+/usr/include/machine/endian.h:
+/usr/include/machine/_endian.h:
+/usr/include/bits/endian.h:
+/usr/include/sys/select.h:
+/usr/include/sys/_sigset.h:
+/usr/include/sys/_timeval.h:
+/usr/include/sys/timespec.h:
+/usr/include/sys/_timespec.h:
+/usr/include/sys/_pthreadtypes.h:
+/usr/include/sys/cpuset.h:
+/usr/include/machine/types.h:
+/usr/include/endian.h:
+/usr/include/bits/byteswap.h:
+/usr/include/bits/wordsize.h:
+/usr/include/sys/sysmacros.h:
+/usr/include/sys/stat.h:
+/usr/include/time.h:
+/usr/include/_ansi.h:
+/usr/include/sys/reent.h:
+/usr/include/sys/lock.h:
+/usr/include/machine/time.h:
+/usr/include/sys/_locale.h:
+/usr/include/cygwin/time.h:
+/usr/include/signal.h:
+/usr/include/sys/signal.h:
+/usr/include/cygwin/signal.h:
+/usr/include/sys/ucontext.h:
+/usr/include/cygwin/stat.h:
+/usr/include/errno.h:
+/usr/include/sys/errno.h:
+/usr/include/ctype.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/sys/_intsup.h:
+/usr/include/unistd.h:
+/usr/include/sys/unistd.h:
+/usr/include/getopt.h:
+/usr/include/stdio.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/stdarg.h:
+/usr/include/sys/stdio.h:
+/usr/include/stdlib.h:
+/usr/include/machine/stdlib.h:
+/usr/include/alloca.h:
+/usr/include/cygwin/stdlib.h:
+/usr/include/cygwin/wait.h:
+/usr/include/pwd.h:
+/usr/include/math.h:
+/usr/include/X11/Xlib.h:
+/usr/include/X11/X.h:
+/usr/include/X11/Xfuncproto.h:
+/usr/include/X11/Xosdefs.h:
+/usr/include/X11/Intrinsic.h:
+/usr/include/X11/Xutil.h:
+/usr/include/X11/keysym.h:
+/usr/include/X11/keysymdef.h:
+/usr/include/X11/Xresource.h:
+/usr/include/string.h:
+/usr/include/strings.h:
+/usr/include/sys/string.h:
+/usr/include/X11/Core.h:
+/usr/include/X11/Composite.h:
+/usr/include/X11/Constraint.h:
+/usr/include/X11/Object.h:
+/usr/include/X11/RectObj.h:
+/usr/include/X11/Xfuncs.h:
+/usr/include/locale.h:
+xfig_math.h:
+figx.h:
+/usr/include/X11/cursorfont.h:
+/usr/include/X11/StringDefs.h:
+/usr/include/X11/Shell.h:
+/usr/include/X11/SM/SMlib.h:
+/usr/include/X11/SM/SM.h:
+/usr/include/X11/ICE/ICElib.h:
+/usr/include/X11/ICE/ICE.h:
+/usr/include/X11/Xatom.h:
+/usr/include/X11/Xaw3d/Command.h:
+/usr/include/X11/Xaw3d/Label.h:
+/usr/include/X11/Xaw3d/Xaw3dP.h:
+/usr/include/X11/IntrinsicP.h:
+/usr/include/X11/CoreP.h:
+/usr/include/X11/CompositeP.h:
+/usr/include/X11/ConstrainP.h:
+/usr/include/X11/ObjectP.h:
+/usr/include/X11/RectObjP.h:
+/usr/include/X11/Xaw3d/Simple.h:
+/usr/include/X11/Xmu/Converters.h:
+/usr/include/X11/Xaw3d/Dialog.h:
+/usr/include/X11/Xaw3d/Form.h:
+/usr/include/X11/Xaw3d/Box.h:
+/usr/include/X11/Xaw3d/Cardinals.h:
+/usr/include/X11/Xaw3d/Text.h:
+/usr/include/X11/Xaw3d/TextSink.h:
+/usr/include/X11/Xaw3d/TextSrc.h:
+/usr/include/X11/Xaw3d/AsciiSrc.h:
+/usr/include/X11/Xaw3d/AsciiSink.h:
+/usr/include/X11/Xaw3d/AsciiText.h:
+/usr/include/X11/Xaw3d/MultiSrc.h:
+/usr/include/X11/Xaw3d/MenuButton.h:
+/usr/include/X11/Xaw3d/Scrollbar.h:
+/usr/include/X11/Xaw3d/SimpleMenu.h:
+/usr/include/X11/Xaw3d/Sme.h:
+/usr/include/X11/Xaw3d/SmeLine.h:
+/usr/include/X11/Xaw3d/Tip.h:
+/usr/include/X11/Xaw3d/Toggle.h:
+/usr/include/X11/Xaw3d/Paned.h:
+/usr/include/X11/Xaw3d/Viewport.h:
+/usr/include/X11/Xaw3d/Reports.h:
+/usr/include/X11/Xaw3d/List.h:
+/usr/include/X11/Xaw3d/SmeBSB.h:
+resources.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/limits.h:
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/syslimits.h:
+/usr/include/limits.h:
+/usr/include/features.h:
+/usr/include/cygwin/limits.h:
+/usr/include/X11/xpm.h:
+paintop.h:
+object.h:
+mode.h:
+w_digitize.h:
+w_indpanel.h:
+w_icons.h:
+w_setup.h:
+w_util.h:
+/usr/include/assert.h:
+w_canvas.h:
